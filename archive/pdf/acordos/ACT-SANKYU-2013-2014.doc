@@ -1,0 +1,1235 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+    <title>
+        Mediador - Extrato Acordo Coletivo
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <script src='/sistemas/mediador/WebResource.axd?d=hhTfH37nGj7RuUcNyaZsOq3hrNj9NhHMj7gtQPA1IghSRT7NHdapQdpLdTFnfOOY68VdT8qtE_3tahXUeoyngBWFXXLIYisgIL_CUVNIUC-26-JSDfUDXfmW-mdhNg9g0&t=635150392049876668' type='text/javascript'></script>
+<script src='/sistemas/mediador/WebResource.axd?d=hhTfH37nGj7RuUcNyaZsOq3hrNj9NhHMj7gtQPA1IghSRT7NHdapQdpLdTFnfOOY68VdT8qtE_3tahXUeoyngBd4MB-SQEpWzu7cVhs3n1rpivkFT0Ji_i7yYraTAijL0&t=635150392049876668' type='text/javascript'></script>
+<script src='/sistemas/mediador/WebResource.axd?d=hhTfH37nGj7RuUcNyaZsOq3hrNj9NhHMj7gtQPA1IghSRT7NHdapQdpLdTFnfOOYM5nbnaeFaywgU6SSxhYM88Jh4maO5LDglposyywoS1Q1&t=635150392049876668' type='text/javascript'></script>
+<script src='/sistemas/mediador/WebResource.axd?d=hhTfH37nGj7RuUcNyaZsOq3hrNj9NhHMj7gtQPA1IghSRT7NHdapQdpLdTFnfOOYM5nbnaeFaywgU6SSxhYM86mf1A1Z2vT-4ON_qc49N_DxNSx-BCoQPt6QPY5o8jPc0&t=635150392049876668' type='text/javascript'></script>
+<script src='/sistemas/mediador/WebResource.axd?d=hhTfH37nGj7RuUcNyaZsOq3hrNj9NhHMj7gtQPA1IghSRT7NHdapQdpLdTFnfOOYM5nbnaeFaywgU6SSxhYM84cG_Z-Y54bVEfhKNxFq4yc1&t=635150392049876668' type='text/javascript'></script>
+<script src='/sistemas/mediador/WebResource.axd?d=hhTfH37nGj7RuUcNyaZsOq3hrNj9NhHMj7gtQPA1IghSRT7NHdapQdpLdTFnfOOYM5nbnaeFaywgU6SSxhYM89IV63toKviORbkpJcLnofA1&t=635150392049876668' type='text/javascript'></script>
+
+    <script type="text/javascript">
+        function Imprimir() {
+            document.getElementById("btnResumoVisualizarImprimir").style.display = "none";
+            document.getElementById("btnResumoVisualizarSalvar").style.display = "none";
+            window.print();
+            document.getElementById("btnResumoVisualizarImprimir").style.display = "";
+            document.getElementById("btnResumoVisualizarSalvar").style.display = "";
+            return true;
+        }
+        $(function () {
+            var marcaDaguaHtml = $('.MarcaDagua').html();
+            var width = $('body').width();
+            var marcaW = $('.MarcaDagua').width();
+
+            var qtdNescessarios = Math.round((width / marcaW) + 0.4);
+            if (qtdNescessarios > 0)
+                for (var incrementador = 0; incrementador < qtdNescessarios; incrementador++) {
+                    $('.MarcaDagua').append("<br />");
+                    $('.MarcaDagua').append(marcaDaguaHtml);
+                }
+        });
+    </script>
+    <style type="text/css">
+        .titulo
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .Subtitulo
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+        .texto
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .tituloClausula
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .descricaoClausula
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .textogrupo
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        .textosubgrupo
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        .textonome
+        {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .textofuncao
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .pagebreak
+        {
+            page-break-after: always;
+        }
+        table.titulo
+        {
+            text-align: left;
+        }
+        @page Section2 {size:21cm 29.7cm ;mso-page-orientation:portrait;margin-top:2cm; margin-rigth:2cm; mso-paper-source:0;}
+        div.Section2 {page:Section2;}
+        pre
+        {
+            white-space: pre-wrap; /* css-3 */
+            white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+            white-space: -pre-wrap; /* Opera 4-6 */
+            white-space: -o-pre-wrap; /* Opera 7 */
+            word-wrap: break-word; /* Internet Explorer 5.5+ */
+            white-space: normal;
+        }
+    </style>
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+</head>
+
+<body>
+<div class="Section2">
+
+        <center>
+            <table border="0" style="width: 18cm;" id="tblConteudo">
+                <tr>
+                    <td>
+                        <table style="width: 100%;" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="center" class="titulo" style="text-transform: uppercase;">
+                                        <b>
+                                            Acordo Coletivo De Trabalho 2013/2014
+                                        </b>
+                                        <br />
+                                        <br />
+                                    </td>
+                                </tr>
+                            <tr>
+                                <td>
+                                    <div style="text-align: left;">
+                                        <table border="0" class="titulo" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <b>NÚMERO DE REGISTRO NO MTE:</b>
+                                                    </td>
+                                                    <td style="width: 10px">
+                                                    </td>
+                                                    <td>
+                                                        MG004074/2013
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b>DATA DE REGISTRO NO MTE:</b>
+                                                    </td>
+                                                    <td style="width: 10px">
+                                                    </td>
+                                                    <td>
+                                                        18/09/2013
+                                                    </td>
+                                                </tr>                                 						
+                                            <tr>
+                                                <td>
+                                                    <b>NÚMERO DA SOLICITAÇÃO:</b>
+                                                </td>
+                                                <td style="width: 10px">
+                                                </td>
+                                                <td>
+                                                    MR054515/2013
+                                                </td>
+                                            </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b>NÚMERO DO PROCESSO:</b>
+                                                    </td>
+                                                    <td style="width: 10px">
+                                                    </td>
+                                                    <td>
+                                                        46249.002190/2013-11
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b>DATA DO PROTOCOLO:</b>
+                                                    </td>
+                                                    <td style="width: 10px">
+                                                    </td>
+                                                    <td>
+18/09/2013                                                    </td>
+                                                </tr>
+                                        </table>
+                                        <br />
+                                            <p>
+                                                <label class="texto">
+                                                    <b>Confira a autenticidade no endereço http://www3.mte.gov.br/sistemas/mediador/.
+                                                    </b>
+                                                </label>
+                                            </p>
+                                            <br /> 
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" class="texto">
+                                    <p align="justify">
+SIND T N I S M M M E M E D P I DE TIM E CEL FABRICIANO, CNPJ n. 19.879.634/0001-94, neste ato representado(a) por seu 
+Presidente, Sr(a). CARLOS JOSE DE VASCONCELOS SILVA e por seu Tesoureiro, Sr(a). KLEBER WILLIAN DE SOUZA;<br/>&nbsp;<br/>                                        <label>
+                                            E
+                                        </label>
+                                        <br />
+                                        <br />
+SANKYU S/A, CNPJ n. 43.211.325/0005-50, neste ato representado(a) por seu 
+Gerente, Sr(a). KLEBER DIVINO MURATORI;<br/>&nbsp;<br/>                                            celebram
+                                            o
+                                         presente ACORDO COLETIVO DE TRABALHO,
+ estipulando as condi&#231;&#245;es de trabalho previstas nas cl&#225;usulas seguintes:                                            <br />
+                                            <br />								
+                                            <label class="tituloClausula">
+                                                <b>
+                                                    CL&#193;USULA PRIMEIRA - VIG&#202;NCIA E DATA-BASE
+                                                    <br />
+                                                </b>
+                                            </label>
+                                            <br />
+                                            <label class="descricaoClausula">
+                                                As partes fixam a vigência do presente Acordo Coletivo de Trabalho no período de 01º de junho de 2013 a 30 de maio de 2014 e a data-base da categoria em 01º de junho.
+                                            </label>                                 
+                                            <br />       										
+                                            <br />
+                                            <br />								
+                                            <label class="tituloClausula">
+                                                <b>
+                                                    CL&#193;USULA SEGUNDA - ABRANG&#202;NCIA
+                                                    <br />
+                                                </b>
+                                            </label>
+                                            <br />
+                                            <label class="descricaoClausula">
+                                                O presente Acordo Coletivo de Trabalho, aplicável no âmbito da(s) empresa(s) acordante(s), abrangerá a(s) categoria(s) <b>de trabalhadores nas Indústrias Siderúrgicas, Metalúrgicas, Mecânicas, de Material Elétrico, Material Eletrônico, Desenhos, Projetos e de Informática</b>, com abrangência territorial em <b>Coronel Fabriciano/MG e Timóteo/MG</b>.
+                                            </label>                                 
+                                            <br />       										
+                                    </p>
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Salários, Reajustes e Pagamento
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Piso Salarial
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TERCEIRA - PISO SALARIAL
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A partir da vig&ecirc;ncia do presente Acordo Coletivo de Trabalho, nenhum empregado, excetuando-se aprendiz de oficio e o estagi&aacute;rio, ter&aacute; o sal&aacute;rio de ingresso inferior a R$&nbsp;785,40 (setecentos eoitenta e cinco reais e&nbsp;quarenta&nbsp;centavos) por m&ecirc;s.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Reajustes/Correções Salariais
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA QUARTA - REAJUSTE SALARIAL
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU reajustar&aacute; os sal&aacute;rios em vigor em 31/05/13, com o percentual de 6,95% (seis v&iacute;rgula noventa e cinco por cento), a partir de 01 de&nbsp;junho de 2013.</p>
+<p>1.1 - Ser&atilde;o compensadas todas as antecipa&ccedil;&otilde;es espont&acirc;neas que forem concedidas durante a vig&ecirc;ncia deste Acordo, por ocasi&atilde;o da pr&oacute;xima data base, desde que de forma coletiva e n&atilde;o decorrente de promo&ccedil;&atilde;o, com exce&ccedil;&atilde;o do item 1.4, onde os casos individuais poder&atilde;o ser tratados;</p>
+<p>1.2 &ndash; Caso sobrevenha, por for&ccedil;a de lei, corre&ccedil;&atilde;o salarial na vig&ecirc;ncia deste Acordo Coletivo, todas as antecipa&ccedil;&otilde;es porventura concedidas ser&atilde;o compensadas na data da vig&ecirc;ncia da Lei, Decreto ou Medida Provis&oacute;ria.</p>
+<p>1.3 &ndash; A SANKYU ficar&aacute; isenta de ressarcimento de qualquer esp&eacute;cie, a t&iacute;tulo de perdas salariais, referente &agrave; aplica&ccedil;&atilde;o da presente cl&aacute;usula, a seus empregados.</p>
+<p>1.4 - Caso houver remo&ccedil;&atilde;o do empregado de um setor de abrang&ecirc;ncia de outro sindicato para outro de setor de abrang&ecirc;ncia do METASITA, com a consequente aplica&ccedil;&atilde;o do instrumento coletivo de trabalho competente, o crit&eacute;rio de reajuste salarial oriunda de negocia&ccedil;&atilde;o coletiva (data base), poder&aacute; levar em conta os seguintes procedimentos para n&atilde;o levar prelu&iacute;zos aos mesmos:</p>
+<p>a) Ao empregado que vier a ser removido antes da pr&oacute;xima concess&atilde;o de negocia&ccedil;&atilde;o coletiva de sindicato anterior, a empresa poder&aacute; conceder a recomposi&ccedil;&atilde;o inflancion&aacute;ria (INPC) do per&iacute;odo trabalhado e ap&oacute;s a negocia&ccedil;&atilde;o coletiva do METASITA, conceder o &iacute;ndice parcial (INPC) complementar, ou seja, somente do per&iacute;odo faltante at&eacute; a data base, n&atilde;o lhe sendo devido o INPC integral estipulado no acordo coletivo. As regras e condi&ccedil;&otilde;es deste pagamento ficam atreladas &agrave;s disposi&ccedil;&otilde;es constantes para os outros empregados no acordo coletivo de trabalho;</p>
+<p>b) Caso a SANKYU conceda o aumento real, o mesmo poder&aacute; ser deduzido do reajuste a ser concedido na negocia&ccedil;&atilde;o coletiva, entretanto, a dedu&ccedil;&atilde;o se dar&aacute; somente no aumento real negociado, e, no limite deste.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Pagamento de Salário – Formas e Prazos
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA QUINTA - PAGAMENTO DE SAL&#193;RIO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU efetuar&aacute; o pagamento dos sal&aacute;rios no dia 05 (cinco) do m&ecirc;s seguinte, sendo que se este dia n&atilde;o for &uacute;til, haver&aacute; a antecipa&ccedil;&atilde;o para o primeiro dia &uacute;til anterior.</p>
+<p>1.1. O pagamento poder&aacute; ser feito mediante ordem de pagamento, cheque, cart&atilde;o sal&aacute;rio (sistema eletr&ocirc;nico) ou dep&oacute;sito na conta banc&aacute;ria do empregado, ficando a Sankyu dispensada de possuir o contracheque assinado pelos trabalhadores, devendo, entretanto, fornec&ecirc;-los com a discrimina&ccedil;&atilde;o das import&acirc;ncias pagas e descontos efetuados.</p>
+<p>1.2.&nbsp; Para se chegar ao sal&aacute;rio base mensal pago no contracheque, o sal&aacute;rio hora ser&aacute; multiplicado por 220, inclu&iacute;das, portanto, o repouso semanal remunerado. Essa regra &eacute; valida para todos os empregados, inclusive para aqueles que trabalham em turno ininterrupto de revezamento.</p>
+                                        </label>
+                                        <br />
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA SEXTA - ADIANTAMENTO SALARIAL
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU antecipar&aacute;, no dia 20 de cada m&ecirc;s, import&acirc;ncia equivalente a at&eacute; 30% (trinta por cento) do sal&aacute;rio-base do m&ecirc;s anterior, a t&iacute;tulo de adiantamento salarial, sendo que se este dia n&atilde;o for &uacute;til, haver&aacute; a antecipa&ccedil;&atilde;o para o primeiro dia &uacute;til anterior.&nbsp;</p>
+<p>1.1.&nbsp;&nbsp;&nbsp; N&atilde;o receber&atilde;o&nbsp;o adiantamento, os empregados admitidos no m&ecirc;s e os que tiverem desconto de pens&atilde;o aliment&iacute;cia em folha de pagamento.</p>
+<p>1.2.&nbsp;&nbsp;&nbsp; Os empregados que tiverem empr&eacute;stimo junto &agrave;s financeiras conveniadas com a SANKYU, receber&atilde;o 15% (quinze por cento) do seu sal&aacute;rio-base.</p>
+<p>1.3.&nbsp;&nbsp;&nbsp; Por se tratar de adiantamento, &eacute; facultado &agrave; Sankyu optar por n&atilde;o fornecer ao empregado o contracheque.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Descontos Salariais
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA S&#201;TIMA - DESCONTO EM FOLHA DE PAGAMENTO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Fica a Sankyu autorizada a efetuar diretamente dos sal&aacute;rios de seus empregados, mediante a autoriza&ccedil;&atilde;o dos mesmos, o desconto dos valores referentes:</p>
+<p>a) &agrave;s despesas por eles efetuadas no Sindicato, no clube Kozo Nakamura, na C&ocirc;nsul (Cooperativa de Consumo), e em outros conv&ecirc;nios firmados com a empresa;</p>
+<p>b) &agrave;s j&oacute;ias/mensalidades de clubes;</p>
+<p>c) &agrave; parcela da alimenta&ccedil;&atilde;o destinada ao empregado,</p>
+<p>d) &agrave; ferramenta requisitada no almoxarifado / ferramentaria e n&atilde;o devolvida,</p>
+<p>e) &agrave; multa por infra&ccedil;&atilde;o ao tr&acirc;nsito quando devidamente comprovada a sua autoria. Quando o empregado recorrer da multa, o desconto ser&aacute; efetuado ap&oacute;s a decis&atilde;o do &oacute;rg&atilde;o competente. Caso ocorra rescis&atilde;o de contrato de trabalho antes do julgamento do recurso, o valor ser&aacute; descontado e a devolu&ccedil;&atilde;o ficar&aacute; condicionada &agrave; decis&atilde;o proferida.</p>
+<p>f) ao EPI (Equipamento de Prote&ccedil;&atilde;o Individual) n&atilde;o devolvido ou danificado propositalmente pelo empregado,</p>
+<p>g) &agrave; botina e uniforme n&atilde;o devolvidos,</p>
+<p>h) &agrave; parcela mensal do Seguro de Vida em Grupo destinada ao empregado,</p>
+<p>i) &agrave; mensalidade sindical,</p>
+<p>j) &agrave; taxa hospitalar,</p>
+<p>l) empr&eacute;stimos efetuados em institui&ccedil;&otilde;es financeiras, cooperativas de cr&eacute;dito e na Sankyu,</p>
+<p>m) valores relativos &agrave; vacinas, jaquetas e liga&ccedil;&otilde;es telef&ocirc;nicas pessoais.</p>
+<p>Par&aacute;grafo primeiro: Caso o empregado esteja com saldo devedor em sua folha de pagamento, o conv&ecirc;nio poder&aacute; ser suspenso at&eacute; a efetiva liquida&ccedil;&atilde;o da d&iacute;vida. Neste caso, o empregado dever&aacute; procurar o setor pessoal para a re-inclus&atilde;o nos conv&ecirc;nios.</p>
+<p>Par&aacute;grafo segundo: Quanto ao desconto de ferramentas, ser&aacute; seguido o seguinte procedimento: O empregado retirar&aacute; a ferramenta no almoxarifado mediante a entrega de uma requisi&ccedil;&atilde;o com a sua assinatura. Esta somente ser&aacute; devolvida ao empregado quando aqueles materiais solicitados retornarem ao almoxarifado. Periodicamente a Sankyu solicitar&aacute; aos empregados realizarem a baixa, e se o empregado n&atilde;o as devolver, ocorrer&aacute; o desconto dos valores equivalentes &agrave;s mesmas, e da mesma forma, nos casos em que verificada a exist&ecirc;ncia da requisi&ccedil;&atilde;o na Sankyu no momento do c&aacute;lculo da rescis&atilde;o de contrato, ser&aacute; processado o referido desconto.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Gratificações, Adicionais, Auxílios e Outros
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Adicional de Hora-Extra
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA OITAVA - HORAS EXTRAS
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU remunerar&aacute; as horas extras trabalhadas com adicional de 60% (sessenta por cento). O trabalho nos dias de feriados e nos dias do descanso semanal remunerado, o adicional ser&aacute; de 100% (cem por cento), tendo-se como refer&ecirc;ncia o sal&aacute;rio-hora base do m&ecirc;s em que forem efetivamente realizadas.</p>
+<p>1.1. Fica assegurado ao empregado o direito &agrave; compensa&ccedil;&atilde;o das horas extras porventura realizadas, mediante negocia&ccedil;&atilde;o com seu gerente imediato, na paridade de uma por uma, ficando a empresa isenta do pagamento do adicional correspondente.</p>
+<p>1.2. Fica convencionado que as horas trabalhadas nos dias de dispensa por liberalidade da empresa, n&atilde;o ser&atilde;o consideradas como extraordin&aacute;rias, exceto aquelas que ultrapassarem a jornada normal;</p>
+<p>1.3. Nos casos de hor&aacute;rios de trabalho que compreendem dois dias, ocorrendo alguma fra&ccedil;&atilde;o da jornada em dia de feriado / folga, ser&aacute; remunerada como hora de feriado / hora extra apenas a fra&ccedil;&atilde;o correspondente ao labor nos respectivos dias.</p>
+<p>1.4. A apura&ccedil;&atilde;o das faltas e das horas extras a serem pagas ser&aacute; feita entre o dia 21 do m&ecirc;s anterior ao dia 20 do m&ecirc;s de compet&ecirc;ncia. Sendo assim, as horas extras e faltas apuradas ap&oacute;s o dia 20, ser&atilde;o processadas na folha de pagamento do m&ecirc;s subseq&uuml;ente;</p>
+<p>1.5. Fica acordado entre as partes que a dura&ccedil;&atilde;o normal do trabalho poder&aacute; ser acrescida de 2 (duas) horas suplementares, nos termos do art. 59 da CLT, n&atilde;o sendo consideradas como extrapola&ccedil;&atilde;o deste limite as varia&ccedil;&otilde;es de hor&aacute;rio no registro do ponto na entrada e sa&iacute;da n&atilde;o excedentes de cinco minutos, observado o limite m&aacute;ximo de dez minutos di&aacute;rios.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Adicional Noturno
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA NONA - ADICIONAL NOTURNO E HORA NOTURNA REDUZIDA
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU remunerar&aacute; as horas trabalhadas entre 22:00 horas e 05:00 horas com o adicional de 48,57% , ficando a composi&ccedil;&atilde;o de tal adicional j&aacute; com a redu&ccedil;&atilde;o da hora noturna assim representada:</p>
+<p>Adicional noturno = sal&aacute;rio hora + 30 % = sal&aacute;rio base multiplicado por 1,3.</p>
+<p>Redu&ccedil;&atilde;o de hora noturna&nbsp;= 52,5 minutos trabalhados = 60 minutos de remunera&ccedil;&atilde;o.</p>
+<p>C&aacute;lculo do adicional&nbsp;= 1,3 x ( 60 / 52,5 ) = 1,4857&nbsp; &egrave;&nbsp; 48,57%, sendo certo que o &iacute;ndice de 48,57% remunera o adicional noturno e a redu&ccedil;&atilde;o da hora noturna.</p>
+<p>Par&aacute;grafo &uacute;nico: O pagamento do adicional de 48,57% (quarenta e oito v&iacute;rgula cinq&uuml;enta e sete por cento) cumpre integralmente a regra estabelecida no caput, &sect;1&ordm; e &sect;2&ordm; do art.73 da CLT.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Adicional de Insalubridade
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA - ADICIONAL DE INSALUBRIDADE
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU pagar&aacute; o adicional de insalubridade conforme relat&oacute;rios de avalia&ccedil;&atilde;o qualitativa e quantitativa dos agentes nocivos constantes da Norma Regulamentadora n&ordm; 15 da portaria 3214/78 com incid&ecirc;ncia do percentual (previsto na lei) sobre o sal&aacute;rio m&iacute;nimo. O pagamento ser&aacute; realizado de forma proporcional de acordo com a data dos seguintes eventos ocorridos no decorrer do m&ecirc;s: admiss&atilde;o, desligamento, afastamento, gozo de f&eacute;rias, transfer&ecirc;ncia de setor, mudan&ccedil;a de atividade e aus&ecirc;ncia ao trabalho.</p>
+<p>Par&aacute;grafo primeiro: Fica estabelecido que o c&aacute;lculo do adicional de insalubridade incidir&aacute; sobre o sal&aacute;rio m&iacute;nimo do m&ecirc;s e n&atilde;o sobre o sal&aacute;rio profissional e nem sobre o piso estabelecido neste instrumento.</p>
+<p>Par&aacute;grafo segundo:&nbsp;A&nbsp;SANKYU agendar&aacute; uma reuni&atilde;o entre os representantes do SESMT da SANKYU e os representantes do METASITA at&eacute; o dia 31/08/2013, para entregar os resultados &nbsp;do levantamento&nbsp; e o respectivo PPRA para avalia&ccedil;&atilde;o e apresenta&ccedil;&atilde;o de observa&ccedil;&otilde;es a a serem discutidas entre as partes.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Adicional de Periculosidade
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA PRIMEIRA - ADICIONAL DE PERICULOSIDADE
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU pagar&aacute; o adicional de periculosidade com o percentual de 30% sobre o sal&aacute;rio base conforme legisla&ccedil;&atilde;o em vigor. O pagamento ser&aacute; proporcional de acordo com a data dos seguintes eventos ocorridos no decorrer do m&ecirc;s: admiss&atilde;o, desligamento, afastamento, gozo de f&eacute;rias, transfer&ecirc;ncia de setor, mudan&ccedil;a de atividade e aus&ecirc;ncia ao trabalho.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Participação nos Lucros e/ou Resultados
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA SEGUNDA - PARTICIPA&#199;&#195;O NOS LUCROS E RESULTADOS
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A&nbsp;SANKYU se compromete a dar continuidade&nbsp;&agrave; cria&ccedil;&atilde;o do Programa de Participa&ccedil;&atilde;o nos Lucros e Resultados para o ano de 2013, com suas metas e indicadores, com o objetivo de envolver os colaboradores para o comprometimento com as metas tra&ccedil;adas, visando o resultado esperado pela empresa e o compartilhamento com os empregados.</p>
+<p>A Sankyu S.A. pagar&aacute; at&eacute; o dia 16/08/2013, &agrave; t&iacute;tulo de antecipa&ccedil;&atilde;o da Participa&ccedil;&atilde;o nos Lucros e/ou Resultados - PLR do ano exerc&iacute;cio de 2013,&nbsp; o valor de R$ 300,00 (trezentos reais) conforme regras e condi&ccedil;&otilde;es abaixo:&nbsp;</p>
+<p>1.1. Ter&atilde;o direito somente os empregados que estiverem efetivos (em atividade) na data da aprova&ccedil;&atilde;o da proposta, excluindo-se os admitidos ap&oacute;s esta data, os aprendizes, os que atingem a data pela proje&ccedil;&atilde;o do aviso pr&eacute;vio indenizado quando demitidos e aqueles que possu&iacute;rem o contrato de trabalho suspenso/ interrompido nesta data, inclusive os afastados e aposentados por invalidez pela previd&ecirc;ncia social.</p>
+<p>1.2. Os empregados contratados por prazo determinado (a t&iacute;tulo de experi&ecirc;ncia) na data da aprova&ccedil;&atilde;o da proposta, a antecipa&ccedil;&atilde;o da participa&ccedil;&atilde;o nos lucros/resultados ser&aacute; paga imediatamente na folha de pagamento do m&ecirc;s em que finalizar o per&iacute;odo de experi&ecirc;ncia, ou seja, no m&ecirc;s em que se efetivar no quadro de empregados. Ter&atilde;o direitos somente os empregados que se efetivarem at&eacute; o dia 31/08/2013.</p>
+<p>1.3.&nbsp;N&atilde;o est&atilde;o contemplados pelo programa de participa&ccedil;&atilde;o nos lucros e resultados, os empregados contratados por prazo determinado (obra certa), contratados especificamente para execu&ccedil;&atilde;o de servi&ccedil;os tempor&aacute;rios, portanto, n&atilde;o ter&atilde;o direito &agrave; antecipa&ccedil;&atilde;o.</p>
+<p>1.4. O pagamento da Participa&ccedil;&atilde;o dos Empregados nos Lucros ou Resultados n&atilde;o constituir&aacute; base de incid&ecirc;ncia para qualquer encargo trabalhista ou previdenci&aacute;rio, e nem se integrar&aacute; &agrave; remunera&ccedil;&atilde;o dos Empregados, conforme preceitua o art. 3&ordm; da Lei n&ordm; 10.101/00.</p>
+<p>1.5. Tendo em vista o atraso no andamento da constru&ccedil;&atilde;o do programa do ano de 2013 provocado pela imin&ecirc;ncia de altera&ccedil;&otilde;es que viriam pela promulga&ccedil;&atilde;o da Lei 12.832 de junho de 2013 e pela falta de inscri&ccedil;&atilde;o por parte dos empregados para concorrerem &agrave; vaga de membro representante dos empregados na comiss&atilde;o de PLR ocasionando o atraso do processo eleitoral, fica acordado entre as partes que, excepcionalmente no ano de 2013, para agiliza&ccedil;&atilde;o do processo de negocia&ccedil;&atilde;o, o METASITA retornar&aacute; as discuss&otilde;es em nomes dos trabalhadores eleitos, ficando incumbido &agrave;s partes o estabelecimento das regras e condi&ccedil;&otilde;es do processo eleitoral para a escolha dos membros representantes dos empregados no programa de participa&ccedil;&atilde;o nos lucros e resultados do ano de 2014.</p>
+<p>1.6. Excepcionalmente no ano de 2013,&nbsp;a mat&eacute;ria relativa &agrave; regulamenta&ccedil;&atilde;o do programa de participa&ccedil;&atilde;o nos lucros e resultados, como valor a distribuir, os indicadores e metas, ser&atilde;o objeto de negocia&ccedil;&atilde;o entre SANKYU e o METASITA, e, a partir do ano de 2014, as negocia&ccedil;&otilde;es ser&atilde;o retomadas pela comiss&atilde;o (representantes dos empregados, empresa e do sindicato) formada especificamente para este fim.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Auxílio Alimentação
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA TERCEIRA - CESTA B&#193;SICA
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU fornecer&aacute; a todos os empregados uma cesta b&aacute;sica no valor m&iacute;nimo de R$145,00 (cento e&nbsp;quarenta e cinco reais), obedecendo-se os seguintes crit&eacute;rios:</p>
+<p>a)- O empregado dever&aacute; ter trabalhado por mais de 90 dias cont&iacute;nuos nos setores abrangidos pelo presente instrumento. O direito a cesta b&aacute;sica come&ccedil;a no m&ecirc;s imediatamente posterior daquele em que completar o referido per&iacute;odo;</p>
+<p>b)- Ter o empregado apresentado no m&aacute;ximo 02 (dois) atestados m&eacute;dicos durante o m&ecirc;s (per&iacute;odo de apura&ccedil;&atilde;o do ponto);</p>
+<p>c)- N&atilde;o estar afastado pelo INSS;</p>
+<p>d)- N&atilde;o tiver falta injustificada no m&ecirc;s anterior;</p>
+<p>e)- N&atilde;o ter sofrido acidente SPT e CPT, o qual deu causa (ato inseguro) no m&ecirc;s anterior;</p>
+<p>f)- N&atilde;o ter recebido advert&ecirc;ncia escrita no m&ecirc;s anterior;</p>
+<p>1.1 A SANKYU poder&aacute; optar por fornecer ao empregado um vale-cesta ou cart&atilde;o eletr&ocirc;nico (cart&atilde;o conv&ecirc;nio de alimenta&ccedil;&atilde;o) que permitir&aacute; o trabalhador efetuar a troca junto a um fornecedor credenciado mais pr&oacute;ximo de sua resid&ecirc;ncia.</p>
+<p>1.2 O benef&iacute;cio tratado nesta cl&aacute;usula ser&aacute; fornecido at&eacute; o 5&ordm; dia &uacute;til do m&ecirc;s subseq&uuml;ente.</p>
+<p>1.3 Fica expressamente proibida a compra de bebidas alco&oacute;licas e cigarros, devendo ser utilizado exclusivamente para aquisi&ccedil;&atilde;o de produtos aliment&iacute;cios.</p>
+                                        </label>
+                                        <br />
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA QUARTA - FORNECIMENTO DE LANCHES
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU fornecer&aacute; lanche aos seus empregados antes do in&iacute;cio da jornada de trabalho e quando os mesmos estiverem prestando servi&ccedil;o em hor&aacute;rio extraordin&aacute;rio (nos casos permitidos em lei) por per&iacute;odo superior a duas horas.</p>
+<p>Par&aacute;grafo &uacute;nico: Fica acordado entre as partes que o valor do lanche n&atilde;o integrar&aacute; a remunera&ccedil;&atilde;o, e em nenhuma hip&oacute;tese ser&aacute; admitida a convers&atilde;o do lanche em valores pecuni&aacute;rios.</p>
+                                        </label>
+                                        <br />
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA QUINTA - ALIMENTA&#199;&#195;O
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU conceder&aacute;&nbsp; alimenta&ccedil;&atilde;o subsidiada aos seus empregados na seguinte forma:</p>
+<p>90% para quem recebe sal&aacute;rios at&eacute; R$ 786,00</p>
+<p>80% para quem recebe sal&aacute;rios de R$ 786,01 a R$ 1.235,00</p>
+<p>70% para quem recebe sal&aacute;rios acima de R$ 1.235,00</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Auxílio Transporte
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA SEXTA - VALE-TRANSPORTE
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Como forma alternativa ao estabelecido no Artigo 4&ordm;. da Lei 7.418, de&nbsp; 16 de dezembro de 1985, a Sankyu poder&aacute; efetuar o pagamento do valor correspondente ao vale-transporte, diretamente aos empregados, em esp&eacute;cie, tal como definido pela legisla&ccedil;&atilde;o, tendo em vista as dificuldades administrativas para a aquisi&ccedil;&atilde;o e distribui&ccedil;&atilde;o dos mesmos, decorrentes das peculiaridades pr&oacute;prias da empresa e de seus empregados:</p>
+<p>1.1.&nbsp;&nbsp;&nbsp; S&atilde;o condi&ccedil;&otilde;es intr&iacute;nsecas do presente benef&iacute;cio:</p>
+<p>&nbsp;a) N&atilde;o ter natureza salarial, nem se incorporar &agrave; remunera&ccedil;&atilde;o do benefici&aacute;rio para quaisquer efeitos;</p>
+<p>&nbsp;b) N&atilde;o constituir base de incid&ecirc;ncia da contribui&ccedil;&atilde;o previdenci&aacute;ria ou do Fundo de Garantia do Tempo de Servi&ccedil;o;</p>
+<p>&nbsp;c) N&atilde;o ser considerado para efeito de gratifica&ccedil;&atilde;o de Natal (Lei 4.090 de 13 de julho de 1.962 e Artigo 7&ordm;. do Decreto &ndash; Lei 2.310, de 22 de dezembro de 1.986);</p>
+<p>&nbsp;d) N&atilde;o configurar rendimento tribut&aacute;vel do benefici&aacute;rio;</p>
+<p>&nbsp;e) N&atilde;o haver pagamento em duplicidade de valores a este t&iacute;tulo;</p>
+<p>&nbsp;f)&nbsp; O pagamento ser&aacute; feito em folha, sob o t&iacute;tulo de &ldquo;indeniza&ccedil;&atilde;o de transporte&rdquo; e que como tal ter&aacute; car&aacute;ter meramente ressarcit&oacute;rio;</p>
+<p>&nbsp;g) O benefici&aacute;rio do vale-transporte continuar&aacute; custeando o equivalente a 6% (seis por cento) de seu sal&aacute;rio base, conforme Decreto 95.247, Artigo 9&ordm;., de 17 de novembro de 1987, Item I.</p>
+<p>&nbsp;h) O vale-transporte assim concedido n&atilde;o descaracteriza o direito do empregador, com tal &iacute;nsito no Artigo 3&ordm; e par&aacute;grafo &uacute;nico, da Lei 7.418/85 e Decreto Regulamentador 95.247/87, artigos 31 e seguintes.</p>
+<p>&nbsp;i)&nbsp;&nbsp; Nos casos em que os empregados utilizem condu&ccedil;&atilde;o fornecida pela empresa para o deslocamento resid&ecirc;ncia/trabalho e vice-versa, o valor a ser considerado para efeito dos c&aacute;lculos de custo e benef&iacute;cio ser&aacute;, por analogia, o da linha p&uacute;blica regular que sirva ao respectivo trajeto.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Auxílio Saúde
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA S&#201;TIMA - CONV&#202;NIOS DE ASSIST&#202;NCIA M&#201;DICA / ODONTOL&#211;GICA
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU S/A manter&aacute; os conv&ecirc;nios de presta&ccedil;&atilde;o de assist&ecirc;ncia odontol&oacute;gica e m&eacute;dica para seus empregados (e dependentes) em atividade, ou seja para os empregados que n&atilde;o estejam com o contrato de trabalho suspenso/ interrompido,&nbsp; com cl&iacute;nicas especializadas e/ou hospitais da regi&atilde;o, compreendendo servi&ccedil;os m&eacute;dico propriamente dito e procedimentos complementares de natureza diagn&oacute;stica, terap&ecirc;utica e hospitalar incluindo farmac&ecirc;uticas (rem&eacute;dios). O valor da taxa de manuten&ccedil;&atilde;o dos empregados e dependentes cadastrados nas entidades conveniadas ser&aacute; descontado do empregado, por meio da folha de pagamento. Caso o empregado esteja com saldo devedor em sua folha de pagamento, o conv&ecirc;nio poder&aacute; ser suspenso at&eacute; a efetiva liquida&ccedil;&atilde;o da d&iacute;vida. Neste caso, o empregado dever&aacute; procurar o setor pessoal para a re-inclus&atilde;o nos conv&ecirc;nios.</p>
+<p>1.1 &Eacute; de compet&ecirc;ncia exclusiva da SANKYU S/A a defini&ccedil;&atilde;o dos tipos de Conv&ecirc;nios, bem como das Cl&iacute;nicas especializadas e/ou hospitais e farm&aacute;cia da regi&atilde;o.</p>
+<p>1.2 A SANKYU S/A disponibilizar&aacute; ao METASITA, quando solicitada, c&oacute;pias de listagens atualizadas das clinicas de presta&ccedil;&atilde;o de assist&ecirc;ncia odontol&oacute;gica, m&eacute;dica, hospitalar e farm&aacute;cias credenciadas da regi&atilde;o.</p>
+<p>1.3 A SANKYU S/A manter&aacute; o plano de sa&uacute;de&nbsp; atual para os trabalhadores (S&Atilde;O CAMILO) e custear&aacute; 50% do valor da mensalidade. Caso o empregado opte pelo plano do USISA&Uacute;DE, o mesmo arcar&aacute; com o custeio integral, ficando esclarecido que o mesmo poder&aacute; optar somente por um dos planos.</p>
+<p>1.4 A SANKYU S/A garantir&aacute; o Plano de Sa&uacute;de, conforme 1.3, para os empregados afastados pelo INSS por motivo de doen&ccedil;a/acidente conforme os seguintes crit&eacute;rios e condi&ccedil;&otilde;es:</p>
+<p>a) Empregados afastados pelo INSS por motivo de doen&ccedil;a: ser&aacute; garantido o subs&iacute;dio de 50% at&eacute; 90 dias da data do afastamento (&uacute;ltimo dia trabalhado). Ap&oacute;s esta data o empregado arcar&aacute; com 100% da mensalidade.&nbsp;</p>
+<p>b) Empregados afastados pelo INSS por motivo de acidente do trabalho: ser&aacute; garantido o subs&iacute;dio de 50% por tempo indeterminado, observados os outros crit&eacute;rios contidos nesta cl&aacute;usula.</p>
+<p>c) Empregados aposentados por invalidez (doen&ccedil;a / acidente do trabalho): ser&atilde;o automaticamente exclu&iacute;dos do conv&ecirc;nio a partir da data do conhecimento pela empresa.</p>
+<p>d) Nos itens de letra a e letra b, o empregado dever&aacute; efetuar o pagamento da mensalidade at&eacute; o dia 05 de cada m&ecirc;s, diretamente no escrit&oacute;rio da SANKYU. Em caso de inadimpl&ecirc;ncia por mais de 60 dias, o empregado ter&aacute; seu conv&ecirc;nio cancelado, sendo que, todo e qualquer d&eacute;bito existente ser&aacute; descontado quando do retorno ao trabalho.</p>
+<p>e) No caso de plano de sa&uacute;de sem subs&iacute;dio da empresa, nos casos de afastamentos por qualquer motivo, o empregado dever&aacute; efetuar o pagamento integral da mensalidade no escrit&oacute;rio da SANKYU at&eacute; o dia 05 de cada m&ecirc;s, sem toler&acirc;ncia pela inadimpl&ecirc;ncia, caso contr&aacute;rio, o conv&ecirc;nio ser&aacute; cancelado imediatamente.</p>
+<p>1.5 Realizar o parcelamento mensal dos descontos de despesas hospitalares e de medicamentos em folha de pagamento de modo que o montante do d&eacute;bito de cada conv&ecirc;nio n&atilde;o exceda a 20% (vinte por cento) do sal&aacute;rio-base, ressalvada a possibilidade de desconto em percentual superior a este na hip&oacute;tese de rescis&atilde;o do contrato de trabalho, quando ser&aacute; facultado &agrave; empresa reter do empregado o valor devido no limite dos cr&eacute;ditos pagos na rescis&atilde;o, consoante disposi&ccedil;&atilde;o do artigo 462 da CLT e da s&uacute;mula 342 do TST.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Seguro de Vida
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA OITAVA - SEGURO DE VIDA EM GRUPO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Manter um seguro de vida aos trabalhadores sendo que a empresa participar&aacute; com 50% (cinq&uuml;enta por cento) dos custos (pr&ecirc;mio pago &agrave; seguradora mensalmente).</p>
+<p>Assist&ecirc;ncia Funeral Familiar&nbsp; (principal &ndash; c&ocirc;njuge&nbsp; - filhos (at&eacute; 21 anos)).&nbsp; Ser&aacute; assegurado o reembolso das despesas realizadas ou a presta&ccedil;&atilde;o do servi&ccedil;o de assist&ecirc;ncia no valor at&eacute; R$ 3.000,00. A seguradora efetuar&aacute; o reembolso das despesas com o funeral diretamente ao respons&aacute;vel pelo disp&ecirc;ndio at&eacute; o limite do capital segurado contratado.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Outros Auxílios
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA D&#201;CIMA NONA - SAL&#193;RIO SUBSTITUI&#199;&#195;O
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Pagar o sal&aacute;rio-substitui&ccedil;&atilde;o a partir do 8&ordm; (oitavo) dia, para as substitui&ccedil;&otilde;es por motivo de f&eacute;rias e as que perdurarem por mais de 30 dias, &agrave; raz&atilde;o de 10% (dez por cento) do sal&aacute;rio base do substituto.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Contrato de Trabalho – Admissão, Demissão, Modalidades
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Desligamento/Demissão
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA - CARTA DE DISPENSA
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU ao dispensar o empregado por justa causa entregar&aacute; ao mesmo, no ato da homologa&ccedil;&atilde;o, uma comunica&ccedil;&atilde;o por escrito onde conste o motivo da dispensa, exceto nos casos em que o mesmo se recuse a assinar a documenta&ccedil;&atilde;o referente &agrave; dispensa.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Outras normas referentes a admissão, demissão e modalidades de contratação
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA PRIMEIRA - CONTRATOS POR PRAZO DETERMINADO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Os empregados contratados por prazo determinado n&atilde;o ter&atilde;o direito a nenhum tipo de estabilidade, pois, o seu termo final &eacute; determinado de antem&atilde;o pelas partes (Sankyu e empregado).</p>
+<p>Fica convencionado que nos contratos por prazo determinado, o empregado n&atilde;o poder&aacute; rescindi-lo sem justa causa, sob pena de indenizar a empresa pelo preju&iacute;zo, militando a favor da empresa a presun&ccedil;&atilde;o de que o valor desse preju&iacute;zo &eacute; equivalente ao valor da metade da remunera&ccedil;&atilde;o a que teria direito o empregado at&eacute; o termo do contrato, complementando assim, as disposi&ccedil;&otilde;es contidas no art. 479 e 480 da CLT.</p>
+                                        </label>
+                                        <br />
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA SEGUNDA - CONTRATO DE EXPERI&#202;NCIA
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Durante o contrato de experi&ecirc;ncia, o sal&aacute;rio do empregado admitido nesta situa&ccedil;&atilde;o poder&aacute; ser inferior &agrave; 15% (quinze por cento) relativamente ao menor sal&aacute;rio da fun&ccedil;&atilde;o que venha a exercer, respeitando o piso salarial convencionado.</p>
+<p>PAR&Aacute;GRAFO &Uacute;NICO &ndash; Este percentual, de que trata o &ldquo;caput&rdquo; da presente cl&aacute;usula, somente poder&aacute; ser aplicado pelo prazo m&aacute;ximo de 90 (noventa) dias.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Relações de Trabalho – Condições de Trabalho, Normas de Pessoal e Estabilidades
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Adaptação de função
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA TERCEIRA - GESTANTE - REMANEJAMENTO DE FUN&#199;&#195;O
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Em atividades onde ofere&ccedil;a riscos &agrave; gesta&ccedil;&atilde;o, comprovados atrav&eacute;s de atestado m&eacute;dico e/ou pelo SESMT da empresa, a empregada gestante ser&aacute; imediatamente remanejada de fun&ccedil;&atilde;o, assim que informar a empresa sua condi&ccedil;&atilde;o de gestante.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Outras normas de pessoal
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA QUARTA - PREENCHIMENTO DE FORMUL&#193;RIOS PARA FINS PREVIDENCI&#193;RIOS
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU dever&aacute; preencher os formul&aacute;rios exigidos pela Previd&ecirc;ncia Social, quando solicitado pelo empregado, nos seguintes prazos e condi&ccedil;&otilde;es:</p>
+<p>a) Para fins de obten&ccedil;&atilde;o de aux&iacute;lio doen&ccedil;a: 05 (cinco) dias &uacute;teis;</p>
+<p>b) PPP &ndash; Perfil Profissiogr&aacute;fico Previdenci&aacute;rio : 40 (quarenta) dias &uacute;teis.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Jornada de Trabalho – Duração, Distribuição, Controle, Faltas
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Duração e Horário
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA QUINTA - JORNADAS E HOR&#193;RIOS DE TRABALHO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Ficam autorizadas as cargas hor&aacute;rias e os hor&aacute;rios de trabalho conforme as disposi&ccedil;&otilde;es abaixo:</p>
+<p>1.1. Jornada de trabalho de 44 horas semanais com trabalho aos s&aacute;bados;</p>
+<p>1.2. Jornada de trabalho de 44 horas semanais permitindo a compensa&ccedil;&atilde;o de hor&aacute;rio relativo aos s&aacute;bados, com a prorroga&ccedil;&atilde;o da jornada di&aacute;ria de segunda a sexta-feira, respeitando as 44 (quarenta e quatro) horas semanais. Neste caso, os s&aacute;bados eventualmente trabalhados, desde a primeira hora trabalhada ser&aacute; paga como hora extra com adicional de 60% e quando se tratar de s&aacute;bado n&atilde;o compensado, as horas trabalhadas neste dia ser&atilde;o remuneradas como extraordin&aacute;rias a partir da 45&ordf; hora trabalhada na semana. A compensa&ccedil;&atilde;o tamb&eacute;m poder&aacute; ser feita, com o aumento da carga hor&aacute;ria em uma semana (superior a 44 horas semanais) e diminui&ccedil;&atilde;o na outra (inferior a 44 horas semanais), trabalhando-se em s&aacute;bados alternados.</p>
+<p>Fica estabelecido que, inobstante a ado&ccedil;&atilde;o do sistema de compensa&ccedil;&atilde;o de hor&aacute;rio previsto nesta cl&aacute;usula, o s&aacute;bado dever&aacute; ser considerado como dia &uacute;til n&atilde;o trabalhado, e n&atilde;o dia de repouso semanal, significando que o empregador poder&aacute; voltar a exigir o trabalho neste dia, em caso de necessidade de servi&ccedil;o.</p>
+<p>1.3. A mudan&ccedil;a do sistema de jornada ora adotado, para qualquer outro existente, por interesse individual de EMPREGADO, fica condicionada &agrave; disponibilidade de vaga e aos requisitos fixados pela SANKYU.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Compensação de Jornada
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA SEXTA - PLANO DE COMPENSA&#199;&#195;O
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU efetuar&aacute; a dispensa ou compensa&ccedil;&atilde;o das horas do pessoal de acordo com as possibilidades moment&acirc;neas de cada local de trabalho (&aacute;rea interna e externa da APERAM).</p>
+<p>Par&aacute;grafo &uacute;nico: Para folgas de car&aacute;ter coletivo, como dias ponte com o dia de feriado, a SANKYU fica autorizada a programar as compensa&ccedil;&otilde;es devendo realizar a divulga&ccedil;&atilde;o aos trabalhadores atrav&eacute;s de documento interno.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Intervalos para Descanso
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA S&#201;TIMA - INTERVALO PARA DESCANSO E ALIMENTA&#199;&#195;O
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Fica acordado que os empregados sujeitos &agrave; marca&ccedil;&atilde;o do hor&aacute;rio de trabalho poder&atilde;o ser dispensados da assinala&ccedil;&atilde;o di&aacute;ria do intervalo para alimenta&ccedil;&atilde;o e descanso, constando, entretanto, o per&iacute;odo nos quadros de aviso ou estar&aacute; pr&eacute;-assinalado no cabe&ccedil;alho ou nos registros di&aacute;rios do cart&atilde;o de ponto, na forma que disp&otilde;e o &sect;2&ordm;, do art.74 da CLT.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Faltas
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA OITAVA - ABONO DE FALTAS
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>&nbsp;</p>
+<p>Ser&atilde;o abonadas as aus&ecirc;ncias ao servi&ccedil;o conforme tabela abaixo:</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td rowspan="4" width="132">
+<p style="text-align: center;"><strong>Falecimento</strong></p>
+</td>
+<td valign="top" width="264">
+<p>esposo(a), pai, m&atilde;e, av&oacute;s, bisav&oacute;s, filho(a), neto(a), bisneto(a);</p>
+</td>
+<td valign="top" width="216">
+<p>05 (cinco) dias corridos</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="264">
+<p>Irm&atilde;o (a)</p>
+</td>
+<td valign="top" width="216">
+<p>03 (tr&ecirc;s) dias corridos</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="264">
+<p>sogro(a), av&oacute;s da (o) esposa(o).</p>
+</td>
+<td valign="top" width="216">
+<p>02 (dois) dias corridos</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top" width="480">
+<p>Contados a partir da data da certid&atilde;o de &oacute;bito</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p style="text-align: center;"><strong>Licen&ccedil;a paternidade</strong></p>
+</td>
+<td valign="top" width="264">
+<p>Contados a partir da data do nascimento do filho.</p>
+</td>
+<td valign="top" width="216">
+<p>05 (cinco) dias corridos</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p style="text-align: center;"><strong>Casamento</strong></p>
+</td>
+<td valign="top" width="264">
+<p>Contados a partir da certid&atilde;o</p>
+</td>
+<td valign="top" width="216">
+<p>03(tr&ecirc;s) dias corridos.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Férias e Licenças
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Remuneração de Férias
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA VIG&#201;SIMA NONA - CONCESS&#195;O DAS F&#201;RIAS
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Por entender ser ben&eacute;fico aos empregados, a partir da vig&ecirc;ncia do presente instrumento fica acordada a possibilidade da SANKYU conceder aos EMPREGADOS o gozo das f&eacute;rias em 2 (dois) per&iacute;odos, podendo optar por 15 (quinze) dias / 15 (quinze) dias ou 11 (onze) dias / 19 (dezenove) dias, mediante programa&ccedil;&atilde;o ajustada previamente entre o empregado e sua respectiva chefia, conforme norma interna estabelecida pela empresa.</p>
+<p>1-A condi&ccedil;&atilde;o de fracionamento de f&eacute;rias em 2 (dois) per&iacute;odos tamb&eacute;m poder&aacute; ser estendida aos EMPREGADOS com idade superior a 50 (cinq&uuml;enta) anos de idade, desde que os mesmos justifiquem sua necessidade e /ou sua conveni&ecirc;ncia;</p>
+<p>2- Para os empregados que optarem pelo parcelamento das f&eacute;rias o pagamento do abono de f&eacute;rias seguir&aacute; a mesma proporcionalidade dos dias de gozo escolhidos pelo empregado para cada um dos dois per&iacute;odos de f&eacute;rias.</p>
+<p>3- Caso o projeto de lei em andamento autorize as f&eacute;rias em tr&ecirc;s per&iacute;odos (3 per&iacute;odos), fica devidamente autorizada a sua pr&aacute;tica.</p>
+<p>4- A Sankyu S/A fornecer&aacute; a todos os seus funcion&aacute;rios, um comprovante dos c&aacute;lculos referentes ao valor a ser pago a t&iacute;tulo de f&eacute;rias, antes do in&iacute;cio das mesmas.</p>
+                                        </label>
+                                        <br />
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA - RETORNO DE F&#201;RIAS
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU pagar&aacute; aos seus empregados o adicional de Retorno de F&eacute;rias, equivalente &agrave; 60 (Sessenta) horas normais, para aqueles que estiverem gozando a 2&ordf; f&eacute;rias.</p>
+<p>1.1 - No per&iacute;odo aquisitivo das duas f&eacute;rias, o empregado dever&aacute; ter trabalhado nos setores abrangidos pelo presente instrumento de forma integral, n&atilde;o observando o per&iacute;odo de deslocamento da presta&ccedil;&atilde;o de servi&ccedil;os entre as plantas da empresa.</p>
+<p>1.2 - Os empregados que n&atilde;o fizerem jus ao gozo de 30 dias de f&eacute;rias, ter&atilde;o o valor do Retorno de F&eacute;rias pago proporcionalmente ao n&uacute;mero de dias de direito.</p>
+<p>1.3 - A SANKYU efetuar&aacute; o pagamento da parcela no dia &uacute;til posterior ao retorno do gozo de f&eacute;rias. At&eacute; a customiza&ccedil;&atilde;o no sistema a empresa realizar&aacute; o pagamento no pr&oacute;ximo dia 05 (data de pagamento dos sal&aacute;rios), mesmo que o empregado esteja no curso do gozo de f&eacute;rias.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Saúde e Segurança do Trabalhador
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Condições de Ambiente de Trabalho
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA PRIMEIRA - SA&#218;DE E SEGURAN&#199;A OCUPACIONAL / ACIDENTE DO TRABALHO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A Sankyu S/A se compromete no cumprimento da legisla&ccedil;&atilde;o pertinente a seguran&ccedil;a e sa&uacute;de ocupacional tendo como meta principal a preserva&ccedil;&atilde;o da integridade f&iacute;sica e mental dos Empregados, sua sa&uacute;de e o controle de riscos profissionais.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Equipamentos de Proteção Individual
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA SEGUNDA - EQUIPAMENTO DE PROTE&#199;&#195;O INDIVIDUAL
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU fornecer&aacute; Equipamentos de Prote&ccedil;&atilde;o Individual (EPI&rsquo;s) apropriados para cada atividade, de acordo com as NR&rsquo;s do Minist&eacute;rio do Trabalho e desenvolver&aacute; esfor&ccedil;os no sentido de reduzir os riscos no ambiente de trabalho, bem como o tempo de exposi&ccedil;&atilde;o a elementos nocivos &agrave; sa&uacute;de de seus empregados, que se obrigam a utilizar os EPI&rsquo;s e a comunicarem &agrave; empresa qualquer altera&ccedil;&atilde;o que os tornem impr&oacute;prio para o uso, requerendo a sua substitui&ccedil;&atilde;o quando necess&aacute;ria.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Uniforme
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA TERCEIRA - UNIFORME
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A&nbsp;SANKYU fornecer&aacute; um par de uniforme a cada empregado, 2 (duas) vezes por ano, devendo haver a devolu&ccedil;&atilde;o do mesmo em caso de desligamento da empresa. Caso o uniforme n&atilde;o seja devolvido, a empresa poder&aacute; descont&aacute;-lo das verbas rescis&oacute;rias, no seu valor de R$ 34,12 (trinta e quatro reais e&nbsp;doze centavos) ou o valor praticado no ato da rescis&atilde;o, cada conjunto (cal&ccedil;a e camisa).</p>
+<p>1.1. As mulheres poder&atilde;o optar pelo uniforme especial, desde que participem do custeio no percentual de 50%.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    CIPA – composição, eleição, atribuições, garantias aos cipeiros
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA QUARTA - ELEI&#199;&#213;ES DA CIPA
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Quanto &agrave;s elei&ccedil;&otilde;es da Comiss&atilde;o Interna de Preven&ccedil;&atilde;o de Acidentes &ndash; CIPA, a SANKYU S.A. obedecer&aacute; rigorosamente o procedimento definido pela NR 5, da Portaria 3214/78.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Aceitação de Atestados Médicos
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA QUINTA - ATESTADO M&#201;DICO / ODONTOL&#211;GICO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>estabelecido que somente ser&atilde;o aceitos para fins de justificativa / abono, os atestados m&eacute;dicos entregues &agrave; Sankyu em seu escrit&oacute;rio externo (Tim&oacute;teo) ou em seu setor, no prazo de 2 (dois) dias ap&oacute;s in&iacute;cio da licen&ccedil;a-m&eacute;dica do empregado ao trabalho.</p>
+<p>1.1.&nbsp;&nbsp;&nbsp; Nos contratos por prazo determinado, o limite para a entrega do atestado n&atilde;o poder&aacute; ultrapassar a data do t&eacute;rmino do contrato;</p>
+<p>1.2.&nbsp;&nbsp;&nbsp; Considerar para efeito de abono/justificativa das aus&ecirc;ncias, os atestados m&eacute;dico-odontol&oacute;gicos emitidos pelas entidades conveniadas com a SANKYU, caso contr&aacute;rio, dever&atilde;o ser confirmados pelo m&eacute;dico da empresa.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Readaptação do Acidentado e/ou Portador de Doença Profissional
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA SEXTA - ACIDENTE DO TRABALHO - READAPTA&#199;&#195;O
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU S.A. far&aacute; todos os esfor&ccedil;os para que os empregados que retornem do INSS, recebendo aux&iacute;lio acidente, por se encontrarem com redu&ccedil;&atilde;o significativa de capacidade de trabalho e cujo processo de readapta&ccedil;&atilde;o ocorreu atrav&eacute;s do Centro de Reabilita&ccedil;&atilde;o do INSS, sejam remanejados para outras &aacute;reas condizentes com a sua capacita&ccedil;&atilde;o de Trabalho, desde que existam tais &aacute;reas dispon&iacute;veis.</p>
+<p>1.1 - Nos casos de doen&ccedil;as profissionais, este compromisso de remanejamento somente ocorrer&aacute; quando a mesma tiver sido adquirida no atual emprego e enquanto a doen&ccedil;a perdurar.</p>
+<p>1.2 - Os empregados que porventura forem readaptados &agrave;s novas fun&ccedil;&otilde;es n&atilde;o poder&atilde;o servir de paradigma para reivindica&ccedil;&otilde;es salariais.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Acompanhamento de Acidentado e/ou Portador de Doença Profissional
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA S&#201;TIMA - ACIDENTE DO TRABALHO - TRANSPORTE
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Na impossibilidade de locomo&ccedil;&atilde;o, a SANKYU garantir&aacute; o transporte gratuito ao empregado acidentado, imediatamente ap&oacute;s a ocorr&ecirc;ncia, cabendo ao empregado fazer a devida comunica&ccedil;&atilde;o &agrave; empresa.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <br />
+                                            <b>
+                                                <label class="textogrupo">
+                                                    Relações Sindicais
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Contribuições Sindicais
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA OITAVA - MENSALIDADE SINDICAL
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU efetuar&aacute; o desconto das mensalidades dos Associados do METASITA no valor equivalente a 1% por cento do sal&aacute;rio base do empregado e repassar&aacute; ao SINDICATO no prazo de 10 dias ap&oacute;s o efetivo desconto. A rela&ccedil;&atilde;o de descontos dever&aacute; ser entregue &agrave; SANKYU at&eacute; o dia 25 para que a mesma possa efetuar o desconto nos sal&aacute;rios pagos no quinto dia do m&ecirc;s subseq&uuml;ente.</p>
+                                        </label>
+                                        <br />
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA TRIG&#201;SIMA NONA - TAXA NEGOCIAL
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>A SANKYU descontar&aacute;, como simples intermedi&aacute;ria de todos os empregados, s&oacute;cios e n&atilde;o s&oacute;cios do METASITA, exceto, daqueles de categorias diferenciadas e dos profissionais liberais n&atilde;o participantes deste acordo, a import&acirc;ncia equivalente a R$ 18,11 (dezoito reais e onze centavos), a t&iacute;tulo de Taxa Negocial, que ser&atilde;o descontados na folha de pagamento do m&ecirc;s de agosto de 2013, conforme delibera&ccedil;&atilde;o em Assembl&eacute;ia.</p>
+<p>&sect;1&ordm; - O empregado poder&aacute; exercer seu direito de oposi&ccedil;&atilde;o &agrave; cobran&ccedil;a da Taxa Negocial, individualmente, mediante documento escrito e devidamente protocolizado junto &agrave; secretaria do SINDICATO at&eacute;&nbsp;o dia 21/08/2013.&nbsp;</p>
+<p>&sect;2&ordm; - Caber&aacute; ao SINDICATO promover a&nbsp;ampla divulga&ccedil;&atilde;o, atrav&eacute;s de seus boletins e outras formas de comunica&ccedil;&atilde;o, junto &agrave; categoria, sobre todos os detalhes relativos ao desconto da Taxa Negocial.</p>
+<p>&sect;3&ordm;- O Sindicato ser&aacute; o &uacute;nico respons&aacute;vel por eventual ressarcimento ao trabalhador da referida taxa negocial em caso de cobran&ccedil;a judicial, seja atrav&eacute;s de a&ccedil;&atilde;o individual ou de a&ccedil;&atilde;o promovida pelo Minist&eacute;rio P&uacute;blico do Trabalho. Caso a Empresa seja compelida a efetuar qualquer ressarcimento em fun&ccedil;&atilde;o de condena&ccedil;&atilde;o judicial, esta poder&aacute;, imediatamente, exigir do Sindicato a restitui&ccedil;&atilde;o da referida quantia, podendo, inclusive, descontar o valor de qualquer repasse devido ao Sindicato.</p>
+                                        </label>
+                                        <br />
+                                        <center>
+                                            <b>
+                                                <label class="textosubgrupo">
+                                                    Outras disposições sobre relação entre sindicato e empresa
+                                                    <br />
+                                                </label>
+                                            </b>
+                                        </center>
+                                        <label class="tituloClausula">
+                                            <b>
+                                                <br />
+                                                CL&#193;USULA QUADRAG&#201;SIMA - PREVAL&#202;NCIA DO ACORDO COLETIVO
+                                                <br />
+                                            </b>
+                                        </label>
+                                        <br />
+                                        <label  class="descricaoClausula" >
+                                            <p>Fica estabelecido entre as partes que o presente Acordo Coletivo prevalecer&aacute; sobre a Conven&ccedil;&atilde;o Coletiva da categoria, em face do conjunto normativo deste instrumento coletivo ser mais favor&aacute;vel aos seus trabalhadores.</p>
+                                        </label>
+                                        <br />
+                                    <br />
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center">
+                                        <tr>
+                                            <td align="center">
+                                                    <br />
+    <br />
+    <label class="textonome">
+        CARLOS JOSE DE VASCONCELOS SILVA
+        <br style="height: 5px" />
+        Presidente
+        <br style="height: 5px" />
+        SIND T N I S M M M E M E D P I DE TIM E CEL FABRICIANO
+        <br />
+        <br />
+    </label>
+    <br />
+    <br />
+    <label class="textonome">
+        KLEBER WILLIAN DE SOUZA
+        <br style="height: 5px" />
+        Tesoureiro
+        <br style="height: 5px" />
+        SIND T N I S M M M E M E D P I DE TIM E CEL FABRICIANO
+        <br />
+        <br />
+    </label>
+
+    <br />
+    <br />
+    <label class="textonome">
+        KLEBER DIVINO MURATORI
+        <br style="height: 5px" />
+        Gerente
+        <br style="height: 5px" />
+        SANKYU S/A
+        <br />
+        <br />
+    </label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </center>
+</div>
+</body>
+</html>

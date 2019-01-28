@@ -1,0 +1,6 @@
+deny from all
+<FilesMatch "\.(jpg|jpeg|png|gif)$">
+  allow from all
+  RewriteEngine On
+  RewriteRule .*$ http://localhost/metasita/wp-includes/images/media/default.png [L]
+</FilesMatch>
